@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.6.0/css/all.css');
+
+body {
+  background-color: #FFFFFF;
+  background-image: url('images/background.jpg');
+  /* background: linear-gradient(135deg, #FFFFFF 0%, #F18805 100%); */
+}
+
+.card-light-blue h1 {
+  font-family: 'Montserrat';
+}
+
+.card-light-blue {
+
+  background-color: rgb(202, 240, 248, 0.7);
+  text-align: center;
+  font-family: 'Karla';
+  border-radius: 5px;
+  padding: 32px;
+  margin: 10px auto;
+  min-width: 250px;
+  max-width: 1000px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.btn-tangerine {
+  text-decoration: none;
+  background-color: #F18805;
+  border-radius: 5px;
+  color: #FFFFFF;
+  padding: 16px 32px;
+  margin: 16px;
+}
+
+.p-info {
+  margin: 32px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 5px;
+}
+
+li  {
+  display: inline;
+  font-size: 32px;
+  margin: 0 8px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto
+  }
+
+  /* .card-light-blue {
+    width: auto;
+  } */
+
+  .img-circle {
+    width: 200px;
+    height: 200px;
+  }
+}
